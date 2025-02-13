@@ -4,7 +4,7 @@ se è dispari inseriscilo nell’array. */
 
 const numbers = []
 for (let i = 0; i < 6; i++) {
-    const thisNumber = prompt("type here your number, it must be a number, es: 1")
+    const thisNumber = Number(prompt("type here your number, it must be a number, es: 1"))
     if (thisNumber % 2 !== 0) {
         numbers.push(thisNumber)
     }
